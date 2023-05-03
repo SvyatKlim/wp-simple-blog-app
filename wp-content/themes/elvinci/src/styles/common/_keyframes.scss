@@ -1,0 +1,63 @@
+@keyframes curtainUp {
+  0% {
+    transform: translateX(100%);
+    visibility: visible;
+    opacity: 0;
+    background-color: transparent;
+  }
+  100% {
+    transform: translateY(0%);
+    visibility: visible;
+    opacity: 1;
+    background-color: $violet;
+  }
+}
+
+@keyframes curtainDown {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+    background-color: $violet;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    background-color: transparent;
+  }
+}
+@keyframes navOpen {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  10% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes navClose {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+

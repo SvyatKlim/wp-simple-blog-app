@@ -1,0 +1,11 @@
+@import './common/variables';
+@import './common/general';
+@import './common/typography';
+@import './common/keyframes';
+
+@import './components/header';
+@import './components/footer';
+
+//Guttenberg Blocks
+ @import './components/sliderWithTextBlock';
+ @import './components/postsGridLayoutBlock';
